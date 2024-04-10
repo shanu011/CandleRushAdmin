@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categoriesFragment">
+
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.example.candlerushadmin.fragments.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" />
+     <fragment
+        android:id="@+id/subCategoriesFragment"
+        android:name="com.example.candlerushadmin.fragments.SubCategoriesFragment"
+        android:label="SubCategoriesFragment" />
+    <fragment
+        android:id="@+id/myOrdersListFragment"
+        android:name="com.example.candlerushadmin.fragments.MyOrdersListFragment"
+        android:label="fragment_my_orders_list"
+        tools:layout="@layout/fragment_my_orders_list" />
+    <fragment
+        android:id="@+id/orderDetailFragment"
+        android:name="com.example.candlerushadmin.fragments.OrderDetailFragment"
+        android:label="fragment_order_detail"
+        tools:layout="@layout/fragment_order_detail" />
+</navigation>

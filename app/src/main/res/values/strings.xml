@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CandleRushAdmin</string>
+    <string name="categories">Categories</string>
+    <string name="delete_alert">Are you sure You want to delete this category</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="subcategories">SubCategories</string>
+    <string name="price_format">%s INR</string>
+    <string name="my_orders">My Orders</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_color">Product Colour</string>
+    <string name="product_fragrance">Product Fragrance</string>
+    <string name="product_shape">Product Shape</string>
+    <string name="product_size">Product Size</string>
+    <string name="user_details">User Details</string>
+    <string name="user_name">Oder By:</string>
+    <string name="user_email">Email</string>
+</resources>
